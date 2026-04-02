@@ -1,0 +1,28 @@
+Package: ForestCIS
+Title: Forest Stand Condition indicators System
+Version: 1.0.0
+Author: WangXiaohua [aut, cre]
+Maintainer: WangXiaohua <2648469410@qq.com>
+Description: A comprehensive package for assessing forest stand conditions using 9 key indicators across three categories: structural attributes, stand vitality, and compositional diversity.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Imports: 
+    stats,
+    dplyr,
+    tidyr,
+    ggplot2,
+    viridis,
+    scales,
+    gridExtra
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    shiny,
+    shinydashboard,
+    DT,
+    readxl,
+    writexl
+Depends: R (>= 3.5.0)
