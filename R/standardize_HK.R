@@ -34,6 +34,6 @@ standardize_HK <- function(x, type = c("H", "K")) {
   } else if (x >= O1 && x <= O2) {
     return(1.0)
   } else if (x > O2 && x < U) {
-    return(0.1 + 0.9 * (x - O2) / (U - O2))
+    return(0.1 + 0.9 * (U - x) / (U - O2))
   }
 }
