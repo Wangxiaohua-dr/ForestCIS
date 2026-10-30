@@ -1,3 +1,7 @@
+# ForestCIS (development version)
+
+* 修正 H 和 K 标准化函数的上侧区间，使得分从最优区间的 1.0 连续下降至上限的 0.1。
+
 # ForestCIS 1.0.0
 
 * 初始版本发布
